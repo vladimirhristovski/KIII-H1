@@ -10,7 +10,7 @@ pipeline {
     stage('Build image') {
       steps {
         script {
-          app = docker.build("vladimirhristovski/KIII-H1")
+          app = docker.build("vladimirhristovski/kiii-h1")
         }
 
       }
